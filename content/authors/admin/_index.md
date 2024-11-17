@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Khoa Vo
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Khoa Vo
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Khoa
+last_name: Vo
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,51 +20,46 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Postdoctoral Associate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: University of Arkansas
+    url: https://uark.edu
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:khoavoho@uark.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/vhvkhoa
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/khoa-vo-ho/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://scholar.google.com/citations?user=Iyvx8vcAAAAJ&hl=en
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Visual Perception
+  - Vision-Language Model
+  - 3D Vision
+  - Robotic Manipulation
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD
+    institution: University of Arkansas
+    date_start: 2020-08-06
+    date_end: 2024-12-13
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MSc
+    institution: Ho Chi Minh University of Science
+    date_start: 2021-10-01
+    date_end: 2018-11-01
     summary: |
       GPA: 3.8/4.0
 
@@ -141,14 +136,6 @@ skills:
         percent: 80
         icon: camera
 
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
-
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
@@ -183,4 +170,6 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Postdoctoral Associate at the University of Arkansas, working with Dr. Ngan Le. My research focuses on exploring visual perception and its connection to language, 3D vision, and robotic manipulation.
+
+I earned my PhD in Computer Science at the University of Arkansas in 2024, supervised by Dr. Ngan Le. Prior to that, I completed my MSc and BSc in Computer Science at Ho Chi Minh University of Science, Vietnam.
