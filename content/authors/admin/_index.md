@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Khoa Vo
+title: 
 
 # Name pronunciation (optional)
 name_pronunciation: Khoa Vo
