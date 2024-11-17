@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 
+title: Khoa Vo
 
 # Name pronunciation (optional)
-name_pronunciation: Khoa Vo
+name_pronunciation:
 
 # Full name (for SEO)
 first_name: Khoa
