@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video Language Model | Khoa Vo</title>
+    <link>http://localhost:1313/tags/video-language-model/</link>
+      <atom:link href="http://localhost:1313/tags/video-language-model/index.xml" rel="self" type="application/rss+xml" />
+    <description>Video Language Model</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 10 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu4529995727383835976.png</url>
+      <title>Video Language Model</title>
+      <link>http://localhost:1313/tags/video-language-model/</link>
+    </image>
+    
+    <item>
+      <title>HENASY: Learning to Assemble Scene-Entities for Egocentric Video-Language Model</title>
+      <link>http://localhost:1313/publication/2024neurips/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2024neurips/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

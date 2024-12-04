@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video Paragraph Captioning | Khoa Vo</title>
+    <link>http://localhost:1313/tags/video-paragraph-captioning/</link>
+      <atom:link href="http://localhost:1313/tags/video-paragraph-captioning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Video Paragraph Captioning</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu4529995727383835976.png</url>
+      <title>Video Paragraph Captioning</title>
+      <link>http://localhost:1313/tags/video-paragraph-captioning/</link>
+    </image>
+    
+    <item>
+      <title>VLTinT: Visual-Linguistic Transformer-in-Transformer for Coherent Video Paragraph Captioning</title>
+      <link>http://localhost:1313/publication/2023aaai/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2023aaai/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

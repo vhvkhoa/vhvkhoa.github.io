@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amodal Instance Segmentation | Khoa Vo</title>
+    <link>http://localhost:1313/tags/amodal-instance-segmentation/</link>
+      <atom:link href="http://localhost:1313/tags/amodal-instance-segmentation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Amodal Instance Segmentation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu4529995727383835976.png</url>
+      <title>Amodal Instance Segmentation</title>
+      <link>http://localhost:1313/tags/amodal-instance-segmentation/</link>
+    </image>
+    
+    <item>
+      <title>AISFormer: Amodal Instance Segmentation with Transformer</title>
+      <link>http://localhost:1313/publication/2022bmvc/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2022bmvc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

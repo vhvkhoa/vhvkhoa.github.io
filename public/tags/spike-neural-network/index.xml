@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spike Neural Network | Khoa Vo</title>
+    <link>http://localhost:1313/tags/spike-neural-network/</link>
+      <atom:link href="http://localhost:1313/tags/spike-neural-network/index.xml" rel="self" type="application/rss+xml" />
+    <description>Spike Neural Network</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu4529995727383835976.png</url>
+      <title>Spike Neural Network</title>
+      <link>http://localhost:1313/tags/spike-neural-network/</link>
+    </image>
+    
+    <item>
+      <title>Spiking Neural Networks and Their Applications: A Review</title>
+      <link>http://localhost:1313/publication/2022spikenn/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2022spikenn/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

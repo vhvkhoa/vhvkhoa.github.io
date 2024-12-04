@@ -47,125 +47,89 @@ interests:
   - Robotic Manipulation
 
 education:
-  - area: PhD
+  - area: Ph.D Candidate in Computer Science
     institution: University of Arkansas
     date_start: 2020-08-06
     date_end: 2024-12-13
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      - Dissertation: Towards Comprehensive and Interpretable Video Understanding
+      - Advised by [Dr. Ngan Le](https://uark-aicv.github.io/team/ngan_le)
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
   - area: MSc
-    institution: Ho Chi Minh University of Science
-    date_start: 2021-10-01
-    date_end: 2018-11-01
+    institution: Vietnam National University - University of Science, Ho Chi Minh
+    date_start: 2018-11-01
+    date_end: 2021-10-01
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Thesis: Agent Environment Network for Temporal Action Proposal Generation
+      - Advised by [Dr. Minh-Triet Tran](https://www.fit.hcmus.edu.vn/~tmtriet/)
+      - Thesis Grade: 10/10
+  - area: BSc (Honors Program)
+    institution: Vietnam National University - University of Science, Ho Chi Minh
+    date_start: 2014-09-01
+    date_end: 2018-07-01
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Thesis:  Image Captioning with Attention Mechanism and Concepts Augmentation
+      - Advised by [Dr. Minh-Triet Tran](https://www.fit.hcmus.edu.vn/~tmtriet/)
+      - GPA: 8.17/10
+      - Thesis Grade: 10/10
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
+  - position: Postdoctoral Associate
+    company_name: University of Arkansas
+    company_url: 'https://uark.edu'
+    company_logo: 'assets/media/uark_logo.jpg'
+    date_start: 2025-01-02
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+      - Advised by [Dr. Ngan Le](https://uark-aicv.github.io/team/ngan_le)
+  - position: Graduate Research Assistant
+    company_name: University of Arkansas
+    company_url: 'https://uark.edu'
+    company_logo: 'assets/media/uark_logo.jpg'
+    date_start: 2020-08-06
+    date_end: 2024-12-13
+    summary: |
+      - Advised by [Dr. Ngan Le](https://uark-aicv.github.io/team/ngan_le)
+      - Engage in multiple funded projects, including:
+        - Chicken weight estimation from RGB-D single-view camera
+        - Research project on video understanding and video-language models
+  - position: Research Internship
+    company_name: National Informatics Institute, Tokyo, Japan
+    company_url: ''
+    company_logo: 'assets/media/uark_logo.jpg'
+    date_start: 2019-10-01
+    date_end: 2020-03-31
+    summary: |
+      - Advised by [Prof. Akihiro Sugimoto](http://www.dgcv.nii.ac.jp/)
+      - Initiate research on temporal action proposals in untrimmed videos
+  - position: Research Associate
+    company_name: SELab, Vietnam National University - University of Science, Ho Chi Minh
+    company_url: 'https://'
+    company_logo: 'assets/media/uark_logo.jpg'
+    date_start: 2020-08-06
+    date_end: 2024-12-13
+    summary: |
+      - Advised by [Dr. Minh-Triet Tran](https://www.fit.hcmus.edu.vn/~tmtriet/)
+      - Research on anomaly detections in traffic surveillance
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: Master/PhD Scholarship
+    date: '2019-12-14'
+    awarder: Vingroup Innovation Foundation
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      **Competitive rate:** 150/400 (37.5%) graduate-level applicants receive scholarships
+  - title: Best Project Award in Information Technology
+    date: '2018-11-01'
+    awarder: Euréka, Vietnam National Awards for Student Scientific Research
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      **Project Title:** Image Captioning with Attention Mechanism and Augmenting Concepts
+
+      **Competitive rate:** 12/903 (1.33%) teams have highest awards in 12 categories
 ---
 
 ## About Me

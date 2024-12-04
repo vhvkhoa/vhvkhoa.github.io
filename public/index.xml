@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Khoa Vo</title>
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <description>Khoa Vo</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu4529995727383835976.png</url>
+      <title>Khoa Vo</title>
+      <link>http://localhost:1313/</link>
+    </image>
+    
+    <item>
+      <title>🎓 PhD Dissertation Defense Successfully Completed</title>
+      <link>http://localhost:1313/recent_news/2024_phd_defense/</link>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recent_news/2024_phd_defense/</guid>
+      <description>&lt;p&gt;I am delighted to announce that I have successfully defended my PhD dissertation, titled &lt;strong&gt;&amp;ldquo;Towards Comprehensive and Interpretable Video Understanding&amp;rdquo;&lt;/strong&gt;, marking the completion of an incredible journey of research, learning, and personal growth.&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>HENASY: Learning to Assemble Scene-Entities for Egocentric Video-Language Model</title>
+      <link>http://localhost:1313/publication/2024neurips/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2024neurips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🎉 One paper accepted at NeurIPS 2024 !</title>
+      <link>http://localhost:1313/recent_news/2024_neurips/</link>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recent_news/2024_neurips/</guid>
+      <description>&lt;p&gt;I am thrilled to announce that our paper, &lt;strong&gt;&amp;ldquo;HENASY: Learning to Assemble Scene-Entities for Egocentric Video-Language Model&amp;rdquo;&lt;/strong&gt; , has been accepted to NeurIPS 2024! 🎊&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Khoa Vo, Thinh Phan, Kashu Yamazaki, Minh Tran, Ngan Le&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Links&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uark-aicv.github.io/HENASY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Project Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2406.00307&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ArXiv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openreview.net/forum?id=7uWzoGn4kv&amp;amp;referrer=%5Bthe%20profile%20of%20Khoa%20Vo%5D%28%2Fprofile%3Fid%3D~Khoa_Vo1%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenReview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🎉 One paper accepted at ICRA 2024!</title>
+      <link>http://localhost:1313/recent_news/2024_icra/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recent_news/2024_icra/</guid>
+      <description>&lt;p&gt;Our paper, &lt;strong&gt;&amp;ldquo;Open-fusion: Real-time open-vocabulary 3d mapping and queryable scene representation&amp;rdquo;&lt;/strong&gt; , has been accepted to WACV 2024! 🎊&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Kashu Yamazaki, Taisei Hanyu, Khoa Vo, Thang Pham, Minh Tran, Gianfranco Doretto, Anh Nguyen, Ngan Le&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Links&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uark-aicv.github.io/OpenFusion&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Project Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/10610193&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2310.03923&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ArXiv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/UARK-AICV/OpenFusion&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🎉 One paper accepted at WACV 2024!</title>
+      <link>http://localhost:1313/recent_news/2024_wacv/</link>
+      <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recent_news/2024_wacv/</guid>
+      <description>&lt;p&gt;Our paper, &lt;strong&gt;&amp;ldquo;ZEETAD: Adapting Pretrained Vision-Language Model for Zero-Shot End-to-End Temporal Action Detection&amp;rdquo;&lt;/strong&gt; , has been accepted to WACV 2024! 🎊&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Thinh Phan, Khoa Vo, Duy Le, Gianfranco Doretto, Donald Adjeroh, Ngan Le&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Links&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://openaccess.thecvf.com/content/WACV2024/html/Phan_ZEETAD_Adapting_Pretrained_Vision-Language_Model_for_Zero-Shot_End-to-End_Temporal_Action_WACV_2024_paper.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[Code](https: //github.com/UARK-AICV/ZEETAD)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>http://localhost:1313/experience/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I gave a talk at Arkansas Engineering Forum, held at Little Rock, Arkansas.</title>
+      <link>http://localhost:1313/recent_news/2023_talk/</link>
+      <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recent_news/2023_talk/</guid>
+      <description>&lt;p&gt;I gave a talk at the &lt;a href=&#34;https://www.arengforum.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Southeast Symposium on Contemporary Engineering Topics, Arkansas Engineering Forum&lt;/a&gt;, held at Little Rock, Arkansas, where I presented my work titled &amp;ldquo;Deformable Articulations Network for Dynamic 3D Human Reconstruction from RGB-D Video&amp;rdquo;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DNA: Deformable Neural Articulations Network for Template-Free Dynamic 3D Human Reconstruction From Monocular RGB-D Video</title>
+      <link>http://localhost:1313/publication/2023cvprw/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2023cvprw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AOE-Net: Entities Interactions Modeling with Adaptive Attention Mechanism for Temporal Action Proposals Generation</title>
+      <link>http://localhost:1313/publication/2023ijcv/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2023ijcv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VLTinT: Visual-Linguistic Transformer-in-Transformer for Coherent Video Paragraph Captioning</title>
+      <link>http://localhost:1313/publication/2023aaai/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2023aaai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🎉 One paper accepted at AAAI 2023 !</title>
+      <link>http://localhost:1313/recent_news/2023_aaai/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recent_news/2023_aaai/</guid>
+      <description>&lt;p&gt;Our paper, &lt;strong&gt;&amp;ldquo;VLTinT: Visual-Linguistic Transformer-in-Transformer for Coherent Video Paragraph Captioning&amp;rdquo;&lt;/strong&gt;, has been accepted to AAAI 2023 (Oral)! 🎊&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Kashu Yamazaki, Khoa Vo, Sang Truong, Bhiksha Raj, Ngan Le&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Links&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ojs.aaai.org/index.php/AAAI/article/view/25412&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2211.15103&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ArXiv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/UARK-AICV/VLTinT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VLCap: Vision-Language with Contrastive Learning for Coherent Video Paragraph Captioning</title>
+      <link>http://localhost:1313/publication/2022icip/</link>
+      <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2022icip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🎉 One paper accepted at IJCV !</title>
+      <link>http://localhost:1313/recent_news/2023_ijcv/</link>
+      <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recent_news/2023_ijcv/</guid>
+      <description>&lt;p&gt;Our paper, &lt;strong&gt;&amp;ldquo;AOE-Net: Entities Interactions Modeling with Adaptive Attention Mechanism for Temporal Action Proposals Generation&amp;rdquo;&lt;/strong&gt;, has been accepted to International Journal of Computer Vision! 🎊
+&lt;strong&gt;Authors&lt;/strong&gt;: Khoa Vo, Sang Truong, Kashu Yamazaki, Bhiksha Raj, Minh-Triet Tran, and Ngan Le&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Links&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://link.springer.com/article/10.1007/s11263-022-01702-9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Journal Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2210.02578&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ArXiv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/UARK-AICV/AOE-Net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🎉 One paper accepted at BMVC 2022 !</title>
+      <link>http://localhost:1313/recent_news/2022_bmvc/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recent_news/2022_bmvc/</guid>
+      <description>&lt;p&gt;Our paper, &lt;strong&gt;&amp;ldquo;AOE-Net: Entities Interactions Modeling with Adaptive Attention Mechanism for Temporal Action Proposals Generation
+&amp;ldquo;&lt;/strong&gt; , has been accepted to BMVC 2022! 🎊&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Minh Tran,  Khoa Vo, Kashu Yamazaki, Arthur Fernandes, Michael Kidd, and Ngan Le&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Links&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bmvc2022.mpi-inf.mpg.de/0712.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2210.06323&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ArXiv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/UARK-AICV/AISFormer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AISFormer: Amodal Instance Segmentation with Transformer</title>
+      <link>http://localhost:1313/publication/2022bmvc/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2022bmvc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Book Chapter: Neural Architecture Search for Medical Image Applications</title>
+      <link>http://localhost:1313/publication/2023nas/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2023nas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spiking Neural Networks and Their Applications: A Review</title>
+      <link>http://localhost:1313/publication/2022spikenn/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2022spikenn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🎉 One paper accepted at BMVC 2021 !</title>
+      <link>http://localhost:1313/recent_news/2021_bmvc/</link>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recent_news/2021_bmvc/</guid>
+      <description>&lt;p&gt;Our paper, &lt;strong&gt;&amp;ldquo;AEI: Actors-Environment Interaction with Adaptive Attention for Temporal Action Proposals Generation&amp;rdquo;&lt;/strong&gt;, has been accepted to BMVC 2021 (oral session, acceptance rate: 3.33%)! 🎊&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Khoa Vo, Hyekang Joo, Kashu Yamazaki, Sang Truong, Kris Kitani, Minh-Triet Tran, Ngan Le&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Links&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bmvc2021-virtualconference.com/assets/papers/1095.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2110.11474&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ArXiv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/UARK-AICV/TAPG-AgentEnvInteration&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Source Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AEI: Actors-Environment Interaction with Adaptive Attention for Temporal Action Proposals Generation</title>
+      <link>http://localhost:1313/publication/2021bmvc/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2021bmvc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ABN: Agent-Aware Boundary Networks for Temporal Action Proposal Generation</title>
+      <link>http://localhost:1313/publication/2021ieeeaccess/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2021ieeeaccess/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agent-Environment Network for Temporal Action Proposal Generation</title>
+      <link>http://localhost:1313/publication/2021icassp/</link>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2021icassp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Smart System for Text-Lifelog Generation from Wearable Cameras in Smart Environment Using Concept-Augmented Image Captioning with Modified Beam Search Strategy</title>
+      <link>http://localhost:1313/publication/2019appliedsciences/</link>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2019appliedsciences/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

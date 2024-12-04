@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image Captioning | Khoa Vo</title>
+    <link>http://localhost:1313/tags/image-captioning/</link>
+      <atom:link href="http://localhost:1313/tags/image-captioning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Image Captioning</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 29 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu4529995727383835976.png</url>
+      <title>Image Captioning</title>
+      <link>http://localhost:1313/tags/image-captioning/</link>
+    </image>
+    
+    <item>
+      <title>A Smart System for Text-Lifelog Generation from Wearable Cameras in Smart Environment Using Concept-Augmented Image Captioning with Modified Beam Search Strategy</title>
+      <link>http://localhost:1313/publication/2019appliedsciences/</link>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2019appliedsciences/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

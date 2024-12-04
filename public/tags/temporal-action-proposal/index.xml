@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Temporal Action Proposal | Khoa Vo</title>
+    <link>http://localhost:1313/tags/temporal-action-proposal/</link>
+      <atom:link href="http://localhost:1313/tags/temporal-action-proposal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Temporal Action Proposal</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 22 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu4529995727383835976.png</url>
+      <title>Temporal Action Proposal</title>
+      <link>http://localhost:1313/tags/temporal-action-proposal/</link>
+    </image>
+    
+    <item>
+      <title>AEI: Actors-Environment Interaction with Adaptive Attention for Temporal Action Proposals Generation</title>
+      <link>http://localhost:1313/publication/2021bmvc/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2021bmvc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ABN: Agent-Aware Boundary Networks for Temporal Action Proposal Generation</title>
+      <link>http://localhost:1313/publication/2021ieeeaccess/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2021ieeeaccess/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agent-Environment Network for Temporal Action Proposal Generation</title>
+      <link>http://localhost:1313/publication/2021icassp/</link>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2021icassp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
