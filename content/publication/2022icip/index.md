@@ -32,10 +32,10 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://www.mdpi.com/2076-3425/12/7/863'
+url_pdf: 'https://ieeexplore.ieee.org/document/9897766'
 url_openreview: ''
-url_preprint: ''
-url_code: ''
+url_preprint: 'VLCap: Vision-Language with Contrastive Learning for Coherent Video Paragraph Captioning'
+url_code: 'https://github.com/UARK-AICV/VLCAP'
 url_poster: ''
 url_project: ''
 url_slides: ''
