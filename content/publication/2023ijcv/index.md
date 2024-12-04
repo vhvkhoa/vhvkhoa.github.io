@@ -23,7 +23,8 @@ abstract: ''
 summary: ''
 
 tags:
-  - Temporal Action Proposal, Interpretable Video Understanding
+  - Interpretable Temporal Action Proposal
+  - IJCV (2023)
 
 # Display this page in the Featured widget?
 featured: true

@@ -23,6 +23,7 @@ summary: ''
 
 tags:
   - Video Language Model
+  - NeurIPS (2024)
 
 # Display this page in the Featured widget?
 featured: true
