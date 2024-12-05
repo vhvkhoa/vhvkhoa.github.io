@@ -18,6 +18,10 @@
     <lastmod>2024-10-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>http://localhost:1313/tags/neurips-2024/</loc>
+    <lastmod>2024-10-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:1313/publication/</loc>
     <lastmod>2024-10-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -62,7 +66,11 @@
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/temporal-action-proposal-interpretable-video-understanding/</loc>
+    <loc>http://localhost:1313/tags/ijcv-2023/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/interpretable-temporal-action-proposal/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
