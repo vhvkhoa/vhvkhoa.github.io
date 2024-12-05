@@ -193,7 +193,7 @@
       {{ with $person.role }}<h3 class="font-semibold mb-1">{{ . | markdownify | emojify }}</h3>{{ end }}
 
       {{ range $person.organizations }}
-      <div class="mb-2">
+      <div class="mb-4 text-primary-600">
         {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
         <div>{{ .name }}</div>
         {{ if .url }}</a>{{ end }}
@@ -201,7 +201,7 @@
       {{ end }}
     </div>
 
-    <ul class="network-icon dark:text-zinc-100">
+    <ul class="network-icon text-primary-700">
       {{ range $person.profiles }}
       {{ $pack := or .icon_pack "fas" }}
       {{ $pack_prefix := $pack }}
@@ -267,7 +267,7 @@
       <ul class="">
         {{ range . }}
         <li class="flex items-start gap-3">
-          {{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "style=\"\" class='flex-shrink-0 w-5 h-5 me-2 mt-1'") }}
+          {{ partial "functions/get_icon" (dict "name" "academic-cap-solid" "attributes" "style=\"\" class='flex-shrink-0 w-5 h-5 me-2 mt-1'") }}
           <div class="description">
             <p class="course">{{ .area }}{{ with .year }}, {{ . }}{{ end }}</p>
             <p class="text-sm">{{ .institution }}</p>

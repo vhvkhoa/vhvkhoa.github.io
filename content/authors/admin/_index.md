@@ -47,7 +47,7 @@ interests:
   - Robotic Manipulation
 
 education:
-  - area: Ph.D Candidate in Computer Science
+  - area: Ph.D in Computer Science
     institution: University of Arkansas
     date_start: 2020-08-06
     date_end: 2024-12-13
@@ -134,6 +134,6 @@ awards:
 
 ## About Me
 
-I am a Postdoctoral Associate at the University of Arkansas, working with Dr. Ngan Le. My research focuses on exploring visual perception and its connection to language, 3D vision, and robotic manipulation.
+I am a Postdoctoral Associate at the University of Arkansas, working with [Dr. Ngan Le](https://uark-aicv.github.io/team/ngan_le). My research focuses on exploring visual perception and its connection to language, 3D vision, and robotic manipulation.
 
 I earned my PhD in Computer Science at the University of Arkansas in 2024, supervised by Dr. Ngan Le. Prior to that, I completed my MSc and BSc in Computer Science at Ho Chi Minh University of Science, Vietnam.
