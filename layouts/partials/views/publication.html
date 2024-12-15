@@ -3,11 +3,11 @@
 {{ $resource := partial "functions/get_featured_image.html" $item }}
 {{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
-<div class="md:flex bg-zinc-50 justify-between"
- style="display: flex; flex-wrap: wrap; justify-content: space-between; max-width: 100%; margin: 0 auto; overflow-x: hidden; background-color: #fafafa;">
+<div class="md:flex bg-zinc-50 justify-between" 
+     style="display: flex; flex-wrap: wrap; justify-content: space-between; max-width: 100%; margin: 0 auto; overflow-x: hidden; background-color: #fafafa;">
 
   <!-- Content Section -->
-  <div style="flex: 7; padding: 2rem;"> <!-- Content takes 70% -->
+  <div style="flex: 1 1 100%; padding: 1rem; box-sizing: border-box;"> <!-- Full width on mobile -->
     <!-- Title -->
     <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 1.125rem; color: #047857; font-weight: bold;">
       <a>{{ $item.Title }}</a>
