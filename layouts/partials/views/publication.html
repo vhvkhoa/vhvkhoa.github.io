@@ -38,8 +38,8 @@
   </div>
 
   <!-- Image Section -->
-  <div style="flex: 3; display: flex; justify-content: flex-end;"> <!-- Image takes 30% -->
-     {{ with $resource }}
+  <div style="flex: 3; display: flex; justify-content: flex-end; align-items: flex-start;"> <!-- Align image to top -->
+    {{ with $resource }}
       {{ $image := .Fill (printf "960x720 %s" $anchor) }}
       {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
       <img 
