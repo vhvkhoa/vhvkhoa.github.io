@@ -3,11 +3,9 @@
 {{ $resource := partial "functions/get_featured_image.html" $item }}
 {{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
-<div class="md:flex bg-zinc-50 justify-between" 
-     style="display: flex; flex-wrap: wrap; justify-content: space-between; max-width: 100%; margin: 0 auto; overflow-x: hidden; background-color: #fafafa;">
-
+<div class="md:flex bg-zinc-50 justify-between" style="display: flex; justify-content: space-between;">
   <!-- Content Section -->
-  <div style="flex: 2; padding: 1rem; box-sizing: border-box; min-width: 0;"> <!-- Content takes proportional space -->
+  <div style="flex: 7; padding: 2rem;"> <!-- Content takes 70% -->
     <!-- Title -->
     <div style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 1.125rem; color: #047857; font-weight: bold;">
       <a>{{ $item.Title }}</a>
@@ -31,7 +29,7 @@
       <p style="margin-top: 0.25rem; font-size: 1rem; color: #4a5568; font-style: italic; font-weight: 500;">
         {{ . }}
         {{ with $item.Params.publication_note }}
-          <span style="margin-left: 0.5rem; padding: 0.25rem 0.5rem; color: #e63946; font-weight: 600;">
+          <span style="margin-left: 0.5rem; padding: 0.25rem 0.5rem; color: #047857; font-weight: 600;">
             {{ . }}
           </span>
         {{ end }}
@@ -80,17 +78,17 @@
     </div>
   </div>
 
-
   <!-- Image Section -->
-  <div style="flex: 1; display: flex; justify-content: flex-end; align-items: flex-start; padding: 1rem; box-sizing: border-box; min-width: 0;"> <!-- Image proportional -->
+  <div style="flex: 3; display: flex; justify-content: flex-end; align-items: flex-start;"> <!-- Align image to top -->
     {{ with $resource }}
       {{ $image := .Fill (printf "960x720 %s" $anchor) }}
       {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
       <img 
         loading="lazy" 
         src="{{ $image.RelPermalink }}" 
-        style="width: 100%; height: auto; object-fit: cover; max-width: 300px;" 
+        style="width: 100%; height: auto; object-fit: cover;" 
         alt="{{ $item.Title | plainify }}">
     {{ end }}
   </div>
 </div>
+
