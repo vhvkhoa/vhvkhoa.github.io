@@ -1,18 +1,23 @@
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; background-color: #f9fafb;">
+{{ $item := .item }}
+
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+{{ $anchor := $item.Params.image.focal_point | default "Center" }}
+
+<div class="md:flex bg-zinc-50 justify-between">
   <!-- Content Section -->
-  <div style="padding: 16px; flex: 1 1 100%; max-width: 100%; box-sizing: border-box;">
+  <div class="p-8 flex-[2]">
     <!-- Title -->
-    <div style="text-transform: uppercase; letter-spacing: 0.1em; font-size: 1.25rem; color: #047857; font-weight: bold;">
-      <a style="position: relative; z-index: 10;">{{ $item.Title }}</a>
+    <div class="uppercase tracking-wide text-lg text-primary-700 dark:text-primary-200 font-bold">
+      <a class="relative z-10">{{ $item.Title }}</a>
     </div>
 
     <!-- Authors -->
-    <p style="margin-top: 8px; font-size: 1rem; font-weight: 500; line-height: 1.5; color: #000;">
+    <p class="block mt-1 leading-tight font-medium text-lg text-black dark:text-white">
       {{ range $index, $author := $item.Params.authors }}
         {{ if $index }}, {{ end }}
         {{ $lowerAuthor := strings.ToLower $author }}
         {{ if (and (strings.Contains $lowerAuthor "khoa") (strings.Contains $lowerAuthor "vo")) }}
-          <span style="font-weight: bold;">{{ $author }}</span>
+          <span class="font-bold">{{ $author }}</span>
         {{ else }}
           {{ $author }}
         {{ end }}
@@ -21,61 +26,71 @@
 
     <!-- Publication Venue -->
     {{ with $item.Params.publication }}
-      <p style="margin-top: 8px; font-size: 1rem; font-style: italic; color: #6b7280;">
+      <p class="block mt-1 text-md text-gray-700 dark:text-gray-400 font-medium italic">
+        <!-- Display the publication venue -->
         {{ . }}
+        <!-- Check and add publication note -->
         {{ with $item.Params.publication_note }}
-          <span style="margin-left: 8px; padding: 2px 4px; color: #047857; font-weight: bold;">{{ . }}</span>
+          <span class="ml-2 px-2 py-1 text-primary-700 font-semibold">
+            {{ . }}
+          </span>
         {{ end }}
       </p>
     {{ end }}
 
     <!-- Links -->
-    <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
+    <div class="flex items-center gap-4 mt-2">
       {{ with $item.Params.url_pdf }}
-        <a href="{{ . }}" style="padding: 5px 16px; border: 2px solid #047857; color: #047857; border-radius: 6px; text-align: center; text-decoration: none; font-weight: 600; transition: all 0.3s;" 
-          onmouseover="this.style.backgroundColor='#047857'; this.style.color='white';" 
-          onmouseout="this.style.backgroundColor='transparent'; this.style.color='#047857';">Paper</a>
+      <div class="">
+        <a href="{{ . }}" style="padding: 5px 16px; border: 2px solid #047857; color: #047857; border-radius: 6px; transition: background-color 0.3s, color 0.3s;" 
+        onmouseover="this.style.backgroundColor='#047857'; this.style.color='white';"
+        onmouseout="this.style.backgroundColor='transparent'; this.style.color='#047857';" class="font-semibold" target="_blank" rel="noopener">Paper</a>
+      </div>
       {{ end }}
       {{ with $item.Params.url_openreview }}
-        <a href="{{ . }}" style="padding: 5px 16px; border: 2px solid #047857; color: #047857; border-radius: 6px; text-align: center; text-decoration: none; font-weight: 600; transition: all 0.3s;" 
-          onmouseover="this.style.backgroundColor='#047857'; this.style.color='white';" 
-          onmouseout="this.style.backgroundColor='transparent'; this.style.color='#047857';">Open Review</a>
+        <a href="{{ . }}" style="padding: 5px 16px; border: 2px solid #047857; color: #047857; border-radius: 6px; transition: background-color 0.3s, color 0.3s;" 
+        onmouseover="this.style.backgroundColor='#047857'; this.style.color='white';"
+        onmouseout="this.style.backgroundColor='transparent'; this.style.color='#047857';" class="font-semibold" target="_blank" rel="noopener">Open Review</a>
       {{ end }}
       {{ with $item.Params.url_preprint }}
-        <a href="{{ . }}" style="padding: 5px 16px; border: 2px solid #047857; color: #047857; border-radius: 6px; text-align: center; text-decoration: none; font-weight: 600; transition: all 0.3s;" 
-          onmouseover="this.style.backgroundColor='#047857'; this.style.color='white';" 
-          onmouseout="this.style.backgroundColor='transparent'; this.style.color='#047857';">Preprint</a>
+        <a href="{{ . }}" style="padding: 5px 16px; border: 2px solid #047857; color: #047857; border-radius: 6px; transition: background-color 0.3s, color 0.3s;" 
+        onmouseover="this.style.backgroundColor='#047857'; this.style.color='white';"
+        onmouseout="this.style.backgroundColor='transparent'; this.style.color='#047857';" class="font-semibold" target="_blank" rel="noopener">Preprint</a>
       {{ end }}
       {{ with $item.Params.url_project }}
-        <a href="{{ . }}" style="padding: 5px 16px; border: 2px solid #047857; color: #047857; border-radius: 6px; text-align: center; text-decoration: none; font-weight: 600; transition: all 0.3s;" 
-          onmouseover="this.style.backgroundColor='#047857'; this.style.color='white';" 
-          onmouseout="this.style.backgroundColor='transparent'; this.style.color='#047857';">Project Website</a>
+        <a href="{{ . }}" style="padding: 5px 16px; border: 2px solid #047857; color: #047857; border-radius: 6px; transition: background-color 0.3s, color 0.3s;" 
+        onmouseover="this.style.backgroundColor='#047857'; this.style.color='white';"
+        onmouseout="this.style.backgroundColor='transparent'; this.style.color='#047857';" class="font-semibold" target="_blank" rel="noopener">Project Website</a>
       {{ end }}
       {{ with $item.Params.url_code }}
-        <span style="padding: 5px 16px; border: 2px solid #6b7280; color: #6b7280; border-radius: 6px; text-align: center; font-weight: 600; opacity: 0.6; cursor: not-allowed;">GitHub (coming soon)</span>
+        <a href="{{ . }}" style="padding: 5px 16px; border: 2px solid #047857; color: #047857; border-radius: 6px; transition: background-color 0.3s, color 0.3s;" 
+        onmouseover="this.style.backgroundColor='#047857'; this.style.color='white';"
+        onmouseout="this.style.backgroundColor='transparent'; this.style.color='#047857';" class="font-semibold" target="_blank" rel="noopener">GitHub</a>
       {{ end }}
       {{ with $item.Params.url_slides }}
-        <a href="{{ . }}" style="padding: 5px 16px; border: 2px solid #047857; color: #047857; border-radius: 6px; text-align: center; text-decoration: none; font-weight: 600; transition: all 0.3s;" 
-          onmouseover="this.style.backgroundColor='#047857'; this.style.color='white';" 
-          onmouseout="this.style.backgroundColor='transparent'; this.style.color='#047857';">Slides</a>
+        <a href="{{ . }}" style="padding: 5px 16px; border: 2px solid #047857; color: #047857; border-radius: 6px; transition: background-color 0.3s, color 0.3s;" 
+        onmouseover="this.style.backgroundColor='#047857'; this.style.color='white';"
+        onmouseout="this.style.backgroundColor='transparent'; this.style.color='#047857';" class="font-semibold" target="_blank" rel="noopener">Slides</a>
       {{ end }}
       {{ with $item.Params.url_poster }}
-        <a href="{{ . }}" style="padding: 5px 16px; border: 2px solid #047857; color: #047857; border-radius: 6px; text-align: center; text-decoration: none; font-weight: 600; transition: all 0.3s;" 
-          onmouseover="this.style.backgroundColor='#047857'; this.style.color='white';" 
-          onmouseout="this.style.backgroundColor='transparent'; this.style.color='#047857';">Poster</a>
+        <a href="{{ . }}" style="padding: 5px 16px; border: 2px solid #047857; color: #047857; border-radius: 6px; transition: background-color 0.3s, color 0.3s;" 
+        onmouseover="this.style.backgroundColor='#047857'; this.style.color='white';"
+        onmouseout="this.style.backgroundColor='transparent'; this.style.color='#047857';" class="font-semibold" target="_blank" rel="noopener">Poster</a>
       {{ end }}
     </div>
   </div>
 
   <!-- Image Section -->
-  <div style="flex: 1 1 100%; max-width: 100%; text-align: center; padding: 16px; box-sizing: border-box;">
-    {{ with $resource }}
+  <div class="md:flex-shrink-0 flex-[1]">
+     {{ with $resource }}
       {{ $image := .Fill (printf "960x720 %s" $anchor) }}
       {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
       <img 
+        class="w-full h-auto lg:w-64 object-cover" 
+        loading="lazy" 
         src="{{ $image.RelPermalink }}" 
-        alt="{{ $item.Title | plainify }}"
-        style="width: 100%; max-width: 320px; height: auto; object-fit: cover;">
+        style="width: 320px; height: 240px; object-fit; cover;"
+        alt="{{ $item.Title | plainify }}">
     {{ end }}
   </div>
 </div>
