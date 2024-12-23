@@ -3,7 +3,7 @@
 {{ $resource := partial "functions/get_featured_image.html" $item }}
 {{ $anchor := $item.Params.image.focal_point | default "Center" }}
 
-<div class="flex bg-zinc-50 justify-between" style="display: flex; justify-content: space-between;">
+<div class="flex bg-zinc-50 justify-between" style="display: flex; justify-content: space-between;  width: 90%; margin: 0 auto;">
   <!-- Content Section -->
   <div style="flex: 7; padding: 2rem;"> <!-- Content takes 70% -->
     <!-- Title -->
