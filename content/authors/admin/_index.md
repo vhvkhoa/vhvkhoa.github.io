@@ -107,8 +107,8 @@ work:
     company_name: SELab, Vietnam National University - University of Science, Ho Chi Minh
     company_url: 'https://'
     company_logo: 'assets/media/uark_logo.jpg'
-    date_start: 2020-08-06
-    date_end: 2024-12-13
+    date_start: 2018-08-01
+    date_end: 2020-08-05
     summary: |
       - Advised by [Dr. Minh-Triet Tran](https://www.fit.hcmus.edu.vn/~tmtriet/)
       - Research on anomaly detections in traffic surveillance
