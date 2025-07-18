@@ -39,6 +39,8 @@ profiles:
     url: https://www.linkedin.com/in/khoa-vo-ho/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=Iyvx8vcAAAAJ&hl=en
+  - icon: academicons/cv
+    url: assets/KhoaVo_CV_July2025.pdf
 
 interests:
   - Visual Perception
