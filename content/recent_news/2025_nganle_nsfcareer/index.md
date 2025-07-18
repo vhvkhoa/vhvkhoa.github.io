@@ -15,7 +15,4 @@ The five‑year project, *“Trustworthy, Robust, and Efficient Multimodal Frame
 ## My contribution
 With the guidance of Dr. Ngan Le, I co‑developed the research vision, drafted technical sections, and incorporate proof‑of‑concept publications that strengthened the proposal. These efforts were instrumental in crafting a compelling narrative that helped win this milestone grant for the AICV Lab.
 
-description here
-URL: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2443877&HistoricalAwards=false
-
 ---
