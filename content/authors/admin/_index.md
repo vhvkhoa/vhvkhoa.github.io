@@ -40,7 +40,7 @@ profiles:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=Iyvx8vcAAAAJ&hl=en
   - icon: academicons/cv
-    url: assets/KhoaVo_CV_July2025.pdf
+    url: https://github.com/vhvkhoa
 
 interests:
   - Visual Perception
