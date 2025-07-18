@@ -1,5 +1,5 @@
 ---
-title: My advisor awarded NSF CAREER Grant
+title: My Advisor Awarded NSF CAREER Grant
 summary: Dr. Ngan Le has received a prestigious 2025 NSF Faculty Early Career Development (CAREER) Award
 date: 2025-07-10
 authors:
