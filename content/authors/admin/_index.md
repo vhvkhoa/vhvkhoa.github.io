@@ -56,7 +56,7 @@ education:
       - Advised by [Dr. Ngan Le](https://uark-aicv.github.io/team/ngan_le)
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
+      url: 'https://www.proquest.com/dissertations-theses/towards-comprehensive-interpretable-video/docview/3163016708/se-2?accountid=8361'
   - area: MSc
     institution: Vietnam National University - University of Science, Ho Chi Minh
     date_start: 2018-11-01
