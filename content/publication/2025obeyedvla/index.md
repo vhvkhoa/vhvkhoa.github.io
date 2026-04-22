@@ -18,7 +18,7 @@ publishDate: '2025-12-27T00:00:00Z'
 
 publication: 'arXiv preprint (2025), under submission at IEEE Transactions on Robotics (T-RO)'
 
-abstract: 'Recent Vision-Language-Action (VLA) models have made impressive progress toward general-purpose robotic manipulation by post-training large Vision-Language Models (VLMs) for action prediction. Yet most VLAs entangle perception and control in a monolithic pipeline optimized purely for action, which can erode language-conditioned grounding. In our real-world tabletop tests, policies over-grasp when the target is absent, are distracted by clutter, and overfit to background appearance. To address these issues, we propose OBEYED-VLA (OBject-centric and gEometrY groundED VLA), a framework that explicitly disentangles perceptual grounding from action reasoning. Instead of operating directly on raw RGB, OBEYED-VLA augments VLAs with a perception module that grounds multi-view inputs into task-conditioned, object-centric, and geometry-aware observations. This module includes a VLM-based object-centric grounding stage that selects task-relevant object regions across camera views, along with a complementary geometric grounding stage that emphasizes the 3D structure of these objects over their appearance. The resulting grounded views are then fed to a pretrained VLA policy, which we fine-tune exclusively on single-object demonstrations collected without environmental clutter or non-target objects. On a real-world UR10e tabletop setup, OBEYED-VLA substantially improves robustness over strong VLA baselines across four challenging regimes and multiple difficulty levels: distractor objects, absent-target rejection, background appearance changes, and cluttered manipulation of unseen objects. Ablation studies confirm that both semantic grounding and geometry-aware grounding are critical to these gains. Overall, the results indicate that making perception an explicit, object-centric component is an effective way to strengthen and generalize VLA-based robotic manipulation.'
+abstract: ''
 
 summary: 'OBEYED-VLA improves robotic manipulation robustness in cluttered real-world scenes by grounding perception before action.'
 
@@ -38,7 +38,7 @@ url_slides: ''
 
 image:
   focal_point: ''
-  preview_only: false
+  preview_only: true
 
 projects: []
 
@@ -58,15 +58,11 @@ Recent Vision-Language-Action models often perform well on clean demonstrations 
 
 ## Qualitative Result: Cluttered Scenes with Distractor Objects
 
-![OBEYED-VLA distractor-scene demo](distractor_demo.gif)
+<div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+  <img src="/uploads/obeyedvla-distractor-demo.gif" alt="OBEYED-VLA distractor-scene demo" style="width: 100%; max-width: 900px; height: auto; border-radius: 6px;">
+</div>
 
 In this distractor-scene example, the grounded observations suppress irrelevant objects and preserve the task-relevant target, allowing the policy to stay aligned with the instruction instead of drifting toward visually salient clutter.
-
-## Why It Matters
-
-- Robust object grounding helps when the target is surrounded by distractors.
-- Geometry-aware inputs reduce dependence on texture and background appearance.
-- The same framework also improves absent-target rejection and unseen-object manipulation.
 
 ## Project Page
 
