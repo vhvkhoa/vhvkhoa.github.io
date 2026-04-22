@@ -1,11 +1,11 @@
 ---
-title: 🎉 One co-authored paper accepted at CVPR 2026!
-summary: "A paper I co-authored has been accepted to CVPR 2026"
+title: 🎉 One paper accepted at CVPR 2026!
+summary: "SemLT3D: Semantic-Guided Expert Distillation for Camera-only Long-Tailed 3D Object Detection"
 date: 2026-02-20
 authors:
   - admin
 ---
 
-One paper I co-authored has been accepted to CVPR 2026! 🎊
+Our paper, **"SemLT3D: Semantic-Guided Expert Distillation for Camera-only Long-Tailed 3D Object Detection"**, has been accepted to CVPR 2026! 🎊
 
-More details will be added soon.
+**Authors**: Hao Vo, Khoa Vo, Thinh Phan, Ngo Xuan Cuong, Gianfranco Doretto, Hien Nguyen, Anh Nguyen, Ngan Le
