@@ -59,7 +59,7 @@ Recent Vision-Language-Action models often perform well on clean demonstrations 
 ## Qualitative Result: Cluttered Scenes with Distractor Objects
 
 <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
-  <img src="/uploads/obeyedvla-distractor-demo.gif" alt="OBEYED-VLA distractor-scene demo" style="width: 100%; max-width: 900px; height: auto; border-radius: 6px;">
+  <img src="distractor_demo.gif" alt="OBEYED-VLA distractor-scene demo" style="width: 100%; max-width: 900px; height: auto; border-radius: 6px;">
 </div>
 
 In this distractor-scene example, the grounded observations suppress irrelevant objects and preserve the task-relevant target, allowing the policy to stay aligned with the instruction instead of drifting toward visually salient clutter.

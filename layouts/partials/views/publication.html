@@ -41,12 +41,12 @@
   <!-- Image Section -->
   <div style="flex: 3; display: flex; justify-content: flex-end; align-items: flex-start; padding-top: 1rem; padding-right: 1rem"> <!-- Align image to top -->
     {{ with $resource }}
-      {{ $image := .Fill (printf "960x720 %s" $anchor) }}
+      {{ $image := .Fit "960x720" }}
       {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
       <img 
         loading="lazy" 
         src="{{ $image.RelPermalink }}" 
-        style="width: 100%; height: auto; object-fit: cover;" 
+        style="width: 100%; height: auto; object-fit: contain; background: #ffffff;" 
         alt="{{ $item.Title | plainify }}">
     {{ end }}
   </div>
