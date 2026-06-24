@@ -1,5 +1,5 @@
 ---
-title: 📄 One paper submitted to ECCV 2026!
+title: 🎉 One paper submitted to ECCV 2026!
 summary: "Gripper-aware Vision Language Action Models"
 date: 2026-06-24
 authors:
